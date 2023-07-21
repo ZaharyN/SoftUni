@@ -1,0 +1,15 @@
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\bin\Debug\net6.0\4.WildFarm.exe
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\bin\Debug\net6.0\4.WildFarm.deps.json
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\bin\Debug\net6.0\4.WildFarm.runtimeconfig.json
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\bin\Debug\net6.0\4.WildFarm.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\bin\Debug\net6.0\4.WildFarm.pdb
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.csproj.AssemblyReference.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.GeneratedMSBuildEditorConfig.editorconfig
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.AssemblyInfoInputs.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.AssemblyInfo.cs
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.csproj.CoreCompileInputs.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\refint\4.WildFarm.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.pdb
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\4.WildFarm.genruntimeconfig.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\4.WildFarm\obj\Debug\net6.0\ref\4.WildFarm.dll

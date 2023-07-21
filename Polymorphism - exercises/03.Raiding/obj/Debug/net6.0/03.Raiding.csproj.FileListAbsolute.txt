@@ -1,0 +1,15 @@
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\bin\Debug\net6.0\03.Raiding.exe
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\bin\Debug\net6.0\03.Raiding.deps.json
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\bin\Debug\net6.0\03.Raiding.runtimeconfig.json
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\bin\Debug\net6.0\03.Raiding.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\bin\Debug\net6.0\03.Raiding.pdb
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.csproj.AssemblyReference.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.GeneratedMSBuildEditorConfig.editorconfig
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.AssemblyInfoInputs.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.AssemblyInfo.cs
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.csproj.CoreCompileInputs.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\refint\03.Raiding.dll
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.pdb
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\03.Raiding.genruntimeconfig.cache
+D:\Моите файлове\Курс\Advanced\OOP\4. Polymorhism\Polymorphism - Exercise\03.Raiding\obj\Debug\net6.0\ref\03.Raiding.dll
