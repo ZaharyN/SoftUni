@@ -196,6 +196,25 @@ ORDER BY CountryName
 GO
 
 --15.
+SELECT
+	[ContinentCode],
+	[CurrencyCode],
+	[CurrencyUsage]
+FROM
+	(SELECT 
+		[ContinentCode],
+		[CurrencyCode],
+		[CurrencyUsage],
+		DENSE_RANK() OVER(PARTITION BY [ContinentCode] ORDER BY [CurrencyUsage] desc) AS [Ranked]
+	FROM
+		(SELECT
+			[ContinentCode],
+			[CurrencyCode],
+			COUNT([CurrencyCode]) AS [CurrencyUsage]
+		FROM [Countries]
+		GROUP BY [ContinentCode], [CurrencyCode]) AS CoreQuery
+	WHERE [CurrencyUsage] > 1) AS SecondQuery
+WHERE [Ranked] = 1
 GO
 
 --16.
