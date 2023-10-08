@@ -196,6 +196,25 @@ ORDER BY CountryName
 GO
 
 --15.
+SELECT
+	[ContinentCode],
+	[CurrencyCode],
+	[CurrencyUsage]
+FROM
+	(SELECT 
+		[ContinentCode],
+		[CurrencyCode],
+		[CurrencyUsage],
+		DENSE_RANK() OVER(PARTITION BY [ContinentCode] ORDER BY [CurrencyUsage] desc) AS [Ranked]
+	FROM
+		(SELECT
+			[ContinentCode],
+			[CurrencyCode],
+			COUNT([CurrencyCode]) AS [CurrencyUsage]
+		FROM [Countries]
+		GROUP BY [ContinentCode], [CurrencyCode]) AS CoreQuery
+	WHERE [CurrencyUsage] > 1) AS SecondQuery
+WHERE [Ranked] = 1
 GO
 
 --16.
@@ -238,5 +257,39 @@ WHERE [Rank] = 1
 ORDER BY [Elevation] DESC, [Length] DESC, [CountryName]
 GO
 
-
+--18.
+SELECT TOP(5)
+	[Country],
+	[Highest Peak Name],
+	[Highest Peak Elevation],
+	[Mountain]
+FROM
+	(SELECT 
+		[Country],
+		[Highest Peak Name],
+		[Highest Peak Elevation],
+		[Mountain],
+		DENSE_RANK() OVER(PARTITION BY [Country] ORDER BY [Highest Peak Elevation] DESC) AS [Ranked]
+	FROM
+		(SELECT 
+			[CountryName] AS [Country],
+			CASE	
+				WHEN p.PeakName IS NULL THEN '(no highest peak)'
+				ELSE p.PeakName
+			END AS [Highest Peak Name],
+			CASE 
+				WHEN p.Elevation IS NULL THEN '0'
+				ELSE p.Elevation
+			END AS [Highest Peak Elevation],
+			CASE	
+				WHEN m.MountainRange IS NULL THEN '(no mountain)'
+				ELSE m.MountainRange
+			END AS [Mountain]
+		FROM [Countries] AS c
+		LEFT JOIN [MountainsCountries] AS mc ON c.CountryCode = mc.CountryCode
+		LEFT JOIN [Mountains] AS m ON m.Id = mc.MountainId
+		LEFT JOIN [Peaks] AS p ON p.MountainId = m.Id) AS Core) AS SecondQuery
+WHERE [Ranked] = 1
+ORDER BY [Country], [Highest Peak Name]
+GO
 
