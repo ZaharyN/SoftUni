@@ -187,18 +187,18 @@ CREATE PROC usp_SearchByCategory(@category varchar(50))
 AS
 	BEGIN
 		SELECT 
-	b.[Name],
-	YearPublished,
-	Rating,
-	c.[Name],
-	p.[Name],
-	CAST(PlayersMin AS VARCHAR) + ' people' AS MinPlayers,
-	CAST(PlayersMax AS VARCHAR) + ' people' AS MaxPlayers
-FROM Boardgames AS b 
-JOIN Categories AS c ON b.CategoryId = c.Id
-JOIN Publishers AS p ON b.PublisherId = p.Id
-JOIN PlayersRanges AS pr ON b.PlayersRangeId = pr.Id
-WHERE c.[Name] = @category
-ORDER BY p.[Name], YearPublished DESC
+			b.[Name],
+			YearPublished,
+			Rating,
+			c.[Name],
+			p.[Name],
+			CAST(PlayersMin AS VARCHAR) + ' people' AS MinPlayers,
+			CAST(PlayersMax AS VARCHAR) + ' people' AS MaxPlayers
+		FROM Boardgames AS b 
+		JOIN Categories AS c ON b.CategoryId = c.Id
+		JOIN Publishers AS p ON b.PublisherId = p.Id
+		JOIN PlayersRanges AS pr ON b.PlayersRangeId = pr.Id
+		WHERE c.[Name] = @category
+		ORDER BY p.[Name], YearPublished DESC
 	END
 GO
