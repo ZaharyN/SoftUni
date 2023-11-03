@@ -121,29 +121,21 @@ namespace SoftUni
             {
                 result.AppendLine($"{employee.FirstName} {employee.LastName} - " +
                     $"Manager: {employee.Manager.FirstName} {employee.Manager.LastName}");
-
-                if (!employee.Projects.Any())
+                
+                foreach (var project in employee.Projects)
                 {
-                    continue;
-                }
-                else
-                {
-                    foreach (var project in employee.Projects)
+    
+                    string projectStartDate = project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+    
+                    string projectEndDate = project.EndDate.HasValue
+                        ? project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                        : "not finished";
+                    if (project.StartDate.Year >= 2001 && project.StartDate.Year <= 2003)
                     {
-
-                        string projectStartDate = project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
-
-                        string projectEndDate = project.EndDate.HasValue
-                            ? project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
-                            : "not finished";
-                        if (project.StartDate.Year >= 2001 && project.StartDate.Year <= 2003)
-                        {
-                            result.AppendLine($"--{project.Name} - {projectStartDate} - {projectEndDate}");
-                        }
+                        result.AppendLine($"--{project.Name} - {projectStartDate} - {projectEndDate}");
                     }
                 }
             }
-
             return result.ToString().Trim();
         }
         //08.
