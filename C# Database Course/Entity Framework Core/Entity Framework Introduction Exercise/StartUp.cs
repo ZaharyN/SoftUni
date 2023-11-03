@@ -97,8 +97,8 @@ namespace SoftUni
         public static string GetEmployeesInPeriod(SoftUniContext context)
         {
             var employees = context.Employees
-                .Include(e => e.EmployeesProjects)
-                .ThenInclude(ep => ep.Project)
+                //.Include(e => e.EmployeesProjects)
+                //.ThenInclude(ep => ep.Project)
                 .Select(e => new
                 {
                     e.FirstName,
@@ -135,7 +135,7 @@ namespace SoftUni
 
                         string projectEndDate = project.EndDate.HasValue
                             ? project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
-                            : "not finishd";
+                            : "not finished";
                         if (project.StartDate.Year >= 2001 && project.StartDate.Year <= 2003)
                         {
                             result.AppendLine($"--{project.Name} - {projectStartDate} - {projectEndDate}");
