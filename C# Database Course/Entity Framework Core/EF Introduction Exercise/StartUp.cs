@@ -97,8 +97,8 @@ namespace SoftUni
         public static string GetEmployeesInPeriod(SoftUniContext context)
         {
             var employees = context.Employees
-                .Include(e => e.EmployeesProjects)
-                .ThenInclude(ep => ep.Project)
+                //.Include(e => e.EmployeesProjects)
+                //.ThenInclude(ep => ep.Project)
                 .Select(e => new
                 {
                     e.FirstName,
@@ -121,29 +121,21 @@ namespace SoftUni
             {
                 result.AppendLine($"{employee.FirstName} {employee.LastName} - " +
                     $"Manager: {employee.Manager.FirstName} {employee.Manager.LastName}");
-
-                if (!employee.Projects.Any())
+                
+                foreach (var project in employee.Projects)
                 {
-                    continue;
-                }
-                else
-                {
-                    foreach (var project in employee.Projects)
+    
+                    string projectStartDate = project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
+    
+                    string projectEndDate = project.EndDate.HasValue
+                        ? project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
+                        : "not finished";
+                    if (project.StartDate.Year >= 2001 && project.StartDate.Year <= 2003)
                     {
-
-                        string projectStartDate = project.StartDate.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture);
-
-                        string projectEndDate = project.EndDate.HasValue
-                            ? project.EndDate.Value.ToString("M/d/yyyy h:mm:ss tt", CultureInfo.InvariantCulture)
-                            : "not finishd";
-                        if (project.StartDate.Year >= 2001 && project.StartDate.Year <= 2003)
-                        {
-                            result.AppendLine($"--{project.Name} - {projectStartDate} - {projectEndDate}");
-                        }
+                        result.AppendLine($"--{project.Name} - {projectStartDate} - {projectEndDate}");
                     }
                 }
             }
-
             return result.ToString().Trim();
         }
         //08.
@@ -295,33 +287,26 @@ namespace SoftUni
         //15.
         public static string RemoveTown(SoftUniContext context)
         {
-            foreach (var employee in context.Employees
-                .Include(e => e.Address)
-                .ThenInclude(t => t.Town))
+            var employeesInSeattle = context.Employees
+                .Where(e => e.Address.Town.Name == "Seattle")
+                .ToList();       
+            
+            foreach (var employee in employeesInSeattle)
             {
-                if(employee.Address.Town.Name == "Seattle")
-                {
-                    employee.AddressId = null;
-                }
+                employee.Address = null;
             }
+            
+            var addressesInSeattle = context.Addresses
+                .Where(a => a.Town.Name == "Seattle")
+                .ToList();
+            
+            int count = addressesInSeattle.Count();
+            
+            addressesInSeattle.RemoveRange(0, addressesInSeattle.Count);
+            context.Remove(context.Towns.First(t => t.Name == "Seattle"));
             context.SaveChanges();
-
-            int addressesRemoved = 0;
-            foreach (var address in context.Addresses
-                .Include(a => a.Town))
-            {
-                if(address.Town.Name == "Seattle")
-                {
-                    context.Addresses.Remove(address);
-                    addressesRemoved++;
-                }
-            }
-            context.SaveChanges();
-
-            context.Towns.Remove(context.Towns.SingleOrDefault(t => t.Name == "Seattle"));
-            context.SaveChanges();
-
-            return $"{addressesRemoved} addresses in Seattle were deleted";
+            
+            return $"{count} addresses in Seattle were deleted";
         }
     }
 }
