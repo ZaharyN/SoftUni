@@ -10,7 +10,7 @@ namespace P02_FootballBetting.Data
 {
     public class FootballBettingContext : DbContext 
     {
-        private const string connection = "Server=ZAHARY;Database=FootballBookmakerSystem;Integrated Security=True";
+        private const string connection = "Server=******;Database=FootballBookmakerSystem;Integrated Security=True";
 
         public FootballBettingContext(DbContextOptions options) 
             : base(options)
