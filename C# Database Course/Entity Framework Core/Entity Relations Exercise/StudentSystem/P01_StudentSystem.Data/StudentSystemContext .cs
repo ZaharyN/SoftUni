@@ -17,7 +17,7 @@ namespace P01_StudentSystem.Data
         
         }
         
-        private const string connection = "Server=ZAHARY;Database=StudentSystem;Integrated Security=True";
+        private const string connection = "Server=******;Database=StudentSystem;Integrated Security=True";
 
 
         public DbSet<Resource> Resources { get; set; } = null!;
