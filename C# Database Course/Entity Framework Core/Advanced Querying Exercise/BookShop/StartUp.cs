@@ -1,0 +1,38 @@
+﻿namespace BookShop
+{
+    using BookShop.Models.Enums;
+    using Data;
+    using Initializer;
+
+    public class StartUp
+    {
+        public static void Main()
+        {
+            using var db = new BookShopContext();
+           // DbInitializer.ResetDatabase(db);
+
+            Console.WriteLine(GetBooksByAgeRestriction(db,"Sk"));
+        }
+
+        public static string GetBooksByAgeRestriction(BookShopContext context, string command)
+        {
+            if (!Enum.TryParse<AgeRestriction>(command, true, out var ageRestriction))
+            {
+                return $"{command} is not a valid type";
+            }
+
+            var books = context.Books
+                .Where(b => b.AgeRestriction == ageRestriction)
+                .Select(b => new
+                {
+                    b.Title
+                })
+                .OrderBy(b => b.Title)
+                .ToList();
+
+            return string.Join(Environment.NewLine, books.Select(b => b.Title));
+        }
+    }
+}
+
+
