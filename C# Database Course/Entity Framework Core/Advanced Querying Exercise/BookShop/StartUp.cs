@@ -113,13 +113,54 @@
         //07.
         public static string GetBooksReleasedBefore(BookShopContext context, string date)
         {
-            DateTime parsedDate = 
-
-            //var booksBeforeGivenYear = context.Books
-            //    .Where(b => b.ReleaseDate.HasValue
-            //        && b.ReleaseDate.Value.Year < date.)
-
-            return string.Empty;
+            DateTime parsedDate = DateTime.ParseExact(date, "dd-MM-yyyy", CultureInfo.InvariantCulture);
+        
+            var books = context.Books
+                .Where(b => b.ReleaseDate.HasValue
+                && b.ReleaseDate.Value < parsedDate)
+                .Select(b => new
+                {
+                    b.Title,
+                    EditionType = b.EditionType.ToString(),
+                    b.Price,
+                    b.ReleaseDate
+                })
+                .ToList();
+        
+            return string.Join(Environment.NewLine, books.OrderByDescending(b => b.ReleaseDate)
+                    .Select(b => $"{b.Title} - {b.EditionType} - ${b.Price:f2}"));
+        }
+        
+        //08.
+        public static string GetAuthorNamesEndingIn(BookShopContext context, string input)
+        {
+            var authors = context.Authors
+                .Where(a => a.FirstName.EndsWith(input))
+                .Select(a => new
+                {
+                    FullName = a.FirstName + " " + a.LastName
+                })
+                .ToList();
+        
+            return string.Join(Environment.NewLine, authors
+                    .OrderBy(a => a.FullName)
+                    .Select(a => a.FullName));
+        }
+        
+        //09.
+        public static string GetBookTitlesContaining(BookShopContext context, string input)
+        {
+            var books = context.Books
+                .Where(b => b.Title.ToLower().Contains(input.ToLower()))
+                .Select(b => new
+                {
+                    b.Title
+                })
+                .ToList();
+        
+            return string.Join(Environment.NewLine, books
+                .OrderBy(b => b.Title)
+                .Select(b => b.Title));
         }
     }
 }
