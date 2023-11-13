@@ -162,6 +162,79 @@
                 .OrderBy(b => b.Title)
                 .Select(b => b.Title));
         }
+
+         //10.
+         public static string GetBooksByAuthor(BookShopContext context, string input)
+         {
+             var books = context.Books
+                 .Include(b => b.Author)
+                 .Where(b => b.Author.LastName.ToLower().StartsWith(input.ToLower()))
+                 .Select(b => new
+                 {
+                     b.Title,
+                     AuthorName = b.Author.FirstName + " " + b.Author.LastName,
+                     b.BookId
+                 })
+                 .ToList();
+        
+             return string.Join(Environment.NewLine, books
+                 .OrderBy(b => b.BookId)
+                 .Select(b => $"{b.Title} ({b.AuthorName})"));
+         }
+        
+         //11.
+         public static int CountBooks(BookShopContext context, int lengthCheck)
+         {
+             var count = context.Books
+                 .Where(b => b.Title.Length > lengthCheck)
+                 .Count();
+        
+             return count;
+         }
+        
+         //12.
+         public static string CountCopiesByAuthor(BookShopContext context)
+         {
+             var authors = context.Authors
+                 .Include(a => a.Books)
+                 .Select(a => new
+                 {
+                     FullName = a.FirstName + " " + a.LastName,
+                     Copies = a.Books.Select(a => new
+                     {
+                         a.Copies
+                     }).Sum(c => c.Copies)
+                 })
+                 .ToList();
+                 
+             return string.Join(Environment.NewLine, authors
+                     .OrderByDescending(a => a.Copies)
+                     .Select(a => $"{a.FullName} - {a.Copies}"));
+         }
+        
+         //13.
+         public static string GetTotalProfitByCategory(BookShopContext context)
+         {
+             var categories = context.Categories
+                 .Include(c => c.CategoryBooks)
+                     .ThenInclude(c => c.Book)
+                 .Select(c => new
+                 {
+                     c.Name,
+                     TotalProfitPerBook = c.CategoryBooks.Select(cb => new
+                     {
+                         ProfitPerBook = cb.Book.Price * cb.Book.Copies
+                     })
+                     .Sum(cb => cb.ProfitPerBook)
+                 })
+                 .ToList();
+        
+             return string.Join(Environment.NewLine, categories
+                     .OrderByDescending(c => c.TotalProfitPerBook)
+                         .ThenBy(c => c.Name)
+                     .Select(c => $"{c.Name} ${c.TotalProfitPerBook:f2}"));
+                     
+         }
     }
 }
 
