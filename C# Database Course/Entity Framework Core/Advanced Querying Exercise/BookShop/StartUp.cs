@@ -235,6 +235,69 @@
                      .Select(c => $"{c.Name} ${c.TotalProfitPerBook:f2}"));
                      
          }
+         //14.
+        public static string GetMostRecentBooks(BookShopContext context)
+        {
+            var mostRecentBooks = context.Categories
+                .Include(c => c.CategoryBooks)
+                    .ThenInclude(c => c.Book)
+                .Select(c => new 
+                {
+                    c.Name,
+                    MostRecentBooks = c.CategoryBooks.Select (cb => new
+                    {
+                        cb.Book.Title,
+                        Date = cb.Book.ReleaseDate.Value
+                    })
+                    .OrderByDescending(cb => cb.Date)
+                    .Take(3)
+                    .ToList()
+                })
+                .ToList();
+        
+            StringBuilder sb = new();
+        
+            foreach (var category in mostRecentBooks.OrderBy(x => x.Name))
+            {
+                sb.AppendLine($"--{category.Name}");
+        
+                foreach (var bookPerCategory in category.MostRecentBooks)
+                {
+                    sb.AppendLine($"{bookPerCategory.Title} ({bookPerCategory.Date.Year.ToString()})");
+                }
+            }
+        
+            return sb.ToString().TrimEnd();
+        }
+        
+        //15.
+        public static void IncreasePrices(BookShopContext context)
+        {
+            var booksBefore2010 = context.Books
+                .Where(b => b.ReleaseDate.HasValue && b.ReleaseDate.Value.Year < 2010)
+                .ToList();
+        
+            foreach (var book in booksBefore2010)
+            {
+                book.Price += 5;
+            }
+        
+            context.SaveChanges();
+        }
+        
+        //16.
+        public static int RemoveBooks(BookShopContext context)
+        {
+            var booksWithLessThan4200Copies = context.Books
+                .Where(b => b.Copies < 4200)
+                .ToList();
+        
+            int booksToRemove = booksWithLessThan4200Copies.Count();
+            context.RemoveRange(booksWithLessThan4200Copies);
+            context.SaveChanges();
+        
+            return booksToRemove;
+        }
     }
 }
 
