@@ -13,15 +13,13 @@ namespace ProductShop
 
             CreateMap<ImportUserDTO, User>();
 
-            CreateMap<ImportProductDTO, Product>();
+            CreateMap<ImportProductDTO, Models.Product>();
 
             CreateMap<ImportCategoryDTO, Category>();
 
             CreateMap<ImportCategoryProductDTO, CategoryProduct>();
 
             //Profiles for Export:
-
-            CreateMap<ExportProductsByPriceRange, Product>();
 
         }
     }
