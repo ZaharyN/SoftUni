@@ -8,15 +8,14 @@ using System.Xml.Serialization;
 namespace CarDealer.DTOs.Export
 {
     [XmlType("car")]
-    public class ExportCarWithDistanceDTO
+    public class ExportCarsFromMakeBMWDTO
     {
-        [XmlElement("make")]
-        public string Make { get; set; } = null!;
+        [XmlAttribute("id")]
+        public int Id { get; set; }
+        [XmlAttribute("model")]
+        public string  Model { get; set; }
 
-        [XmlElement("model")]
-        public string  Model { get; set; } = null!;
-
-        [XmlElement("traveled-distance")]
+        [XmlAttribute("traveled-distance")]
         public long TraveledDistance { get; set; }
     }
 }
