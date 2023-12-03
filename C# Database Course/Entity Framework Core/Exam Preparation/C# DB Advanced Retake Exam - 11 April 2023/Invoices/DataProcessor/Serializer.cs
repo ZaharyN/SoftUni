@@ -15,22 +15,24 @@
             StringBuilder sb = new();
 
             ExportClientDTO[] clients = context.Clients
-                .Where(c => c.Invoices.Any(i => i.IssueDate >= date))
+                .Where(c => c.Invoices.Any(i => i.IssueDate > date))
                 .ToArray()
                 .Select(c => new ExportClientDTO
                 {
                     InvoicesCount = c.Invoices.Count,
                     Name = c.Name,
                     NumberVat = c.NumberVat,
-                    Invoices = c.Invoices.Select(i => new ExportInvoiceDTO
-                    {
-                        Number = i.Number,
-                        Amount = i.Amount,
-                        DueDate = i.DueDate.ToString("d", CultureInfo.InvariantCulture),
-                        CurrencyType = i.CurrencyType
-                    })
-                    .OrderByDescending(i => i.DueDate)
-                    .ToArray()
+                    Invoices = c.Invoices
+                        .OrderBy(i => i.IssueDate)
+                            .ThenByDescending(i => i.DueDate)
+                        .Select(i => new ExportInvoiceDTO
+                        {
+                            Number = i.Number,
+                            Amount = i.Amount,
+                            DueDate = i.DueDate.ToString("d", CultureInfo.InvariantCulture),
+                            CurrencyType = i.CurrencyType
+                        })
+                        .ToArray()
                 })
                 .OrderByDescending(c => c.Invoices.Count())
                     .ThenBy(c => c.Name)
