@@ -9,7 +9,7 @@
                 .Select(int.Parse)
                 .ToArray();
 
-            Func<int[], int> sum = x => x.Sum();
+            Func<int[], int> sum = Sum;
             Func<int[], int> length = Length;
 
 
@@ -19,16 +19,16 @@
             //Console.WriteLine(input.Sum());
         }
 
-        //static int Sum(int[] input)
-        //{
-        //    int sum = 0;
-        //    foreach (int element in input)
-        //    {
-        //        sum += element;
-        //    }
+        static int Sum(int[] input)
+        {
+            int sum = 0;
+            foreach (int element in input)
+            {
+                sum += element;
+            }
 
-        //    return sum;
-        //}
+            return sum;
+        }
 
         static int Length(int[] input)
         {
