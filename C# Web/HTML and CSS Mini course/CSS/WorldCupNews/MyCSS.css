@@ -1,0 +1,20 @@
+﻿main {
+    background-color: #A6E1EC;
+    border: 1px solid black;
+    padding:16px;
+    margin:16px;
+    max-width:700px;
+}
+section article{
+    border: 1px solid black;
+    margin: 2px;
+    padding:15px;
+}
+article img, p{
+    display: inline-block;
+    vertical-align:middle;
+}
+article span{
+    margin-right:120px;
+}
+

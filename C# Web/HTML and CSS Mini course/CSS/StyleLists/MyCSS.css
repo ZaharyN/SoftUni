@@ -1,0 +1,16 @@
+﻿body {
+    background-color: #EDEDED;
+}
+h1 {
+    background-color: #3B516B;
+    color:white;
+    border-radius:10px;
+    padding:18px;
+    margin-top:5px;
+    text-decoration:underline;
+    font-family: Arial;
+    letter-spacing: 3px;
+}
+li{
+    font-family: Arial;
+}

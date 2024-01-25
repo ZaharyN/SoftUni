@@ -1,0 +1,24 @@
+﻿body{
+    margin:0px;
+}
+section {
+    background-color: #880000;
+    max-width:600px;
+    padding:5px;
+    margin:0px;
+}
+h1,h2{
+    text-align:center;
+    text-transform:uppercase;
+}
+h1{
+    font-size:30px;
+}
+h1,p{
+    color:white;
+    font-family:"Helvetica", sans-serif;
+    text-align:center;
+}
+h2 {
+    color: #DEB372;
+}
