@@ -1,0 +1,40 @@
+﻿nav {
+    background-color: #F5F5F5;
+    max-width: 200px;
+    border: 1px solid #E4E4E4 ;
+}
+nav ul{
+    list-style-type:none;
+    padding-inline-start:20px;
+}
+li i, a {
+    color: #C83025;
+    text-decoration: none;
+    padding:4px;
+    font-family:Arial, Helvetica, sans-serif;
+}
+nav a{
+    display:inline-block;
+    padding: 2px 6px;
+}
+.btn{
+    margin-top:20px;
+    padding: 6px 12px;
+    color:white;
+    border-radius:2px;
+}
+.btn-checkout {
+    background-color: #83A94C;
+    border: 2px solid #759744;
+}
+.btn-info {
+    background-color: #008ED0;
+    border: 2px solid #007EB9;
+}
+.btn-delete {
+    background-color: #CC4036;
+    border: 2px solid #982F28;
+}
+.btn i{
+    padding: 0 2px;
+}
