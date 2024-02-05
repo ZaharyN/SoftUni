@@ -1,9 +1,8 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using MVCIntroDemo.Models;
+﻿using ChatApp.Models;
+using Microsoft.AspNetCore.Mvc;
 using System.Diagnostics;
-using System.Text.Json;
 
-namespace MVCIntroDemo.Controllers
+namespace ChatApp.Controllers
 {
     public class HomeController : Controller
     {
@@ -16,7 +15,6 @@ namespace MVCIntroDemo.Controllers
 
         public IActionResult Index()
         {
-            ViewBag.Message = "Hello World!";
             return View();
         }
 
@@ -24,22 +22,8 @@ namespace MVCIntroDemo.Controllers
         {
             return View();
         }
-        public IActionResult About()
-        {
-            ViewBag.Message = "This is ASP.NET Core MVC app.";
-            return View();
-        }
-        public IActionResult Numbers()
-        {
-            return View();
-        }
-		public IActionResult NumbersToN(int count = 3)
-		{
-            ViewBag.Count = count;
-			return View();
-		}
 
-		[ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
