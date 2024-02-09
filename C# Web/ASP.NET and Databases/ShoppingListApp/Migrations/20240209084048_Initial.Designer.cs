@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 using ShoppingListApp.Data;
 
@@ -10,9 +11,10 @@ using ShoppingListApp.Data;
 namespace ShoppingListApp.Migrations
 {
     [DbContext(typeof(ShoppingListDbContext))]
-    partial class ShoppingListDbContextModelSnapshot : ModelSnapshot
+    [Migration("20240209084048_Initial")]
+    partial class Initial
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder
@@ -41,18 +43,6 @@ namespace ShoppingListApp.Migrations
                     b.ToTable("Products");
 
                     b.HasComment("Shopping List Product");
-
-                    b.HasData(
-                        new
-                        {
-                            Id = 1,
-                            Name = "Cheese"
-                        },
-                        new
-                        {
-                            Id = 2,
-                            Name = "Milk"
-                        });
                 });
 
             modelBuilder.Entity("ShoppingListApp.Data.Models.ProductNote", b =>

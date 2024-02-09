@@ -1,6 +1,7 @@
 ﻿using Microsoft.EntityFrameworkCore;
 using ShoppingListApp.Contracts;
 using ShoppingListApp.Data;
+using ShoppingListApp.Data.Models;
 using ShoppingListApp.Models;
 
 namespace ShoppingListApp.Services
@@ -13,29 +14,66 @@ namespace ShoppingListApp.Services
         {
 			context = _context;
         }
-        public Task AddProductAsync(ProductViewModel model)
+        public async Task AddProductAsync(ProductViewModel model)
 		{
-			throw new NotImplementedException();
+			var entity = new Product()
+			{
+				Name = model.Name,
+			};
+			await context.Products.AddAsync(entity);
+			await context.SaveChangesAsync();
 		}
 
-		public Task DeleteProductAsync(int id)
+		public async Task DeleteProductAsync(int id)
 		{
-			throw new NotImplementedException();
+			var entity = await context.Products.FindAsync(id);
+
+			if(entity == null)
+			{
+				throw new ArgumentException("Invalid product");
+			}
+
+			context.Products.Remove(entity);
+			await context.SaveChangesAsync();
 		}
 
-		public Task<IEnumerable<ProductViewModel>> GetAllAsync()
+		public async Task<IEnumerable<ProductViewModel>> GetAllAsync()
 		{
-			throw new NotImplementedException();
+			var result = await context.Products
+				.Select(x => new ProductViewModel()
+				{
+					Id = x.Id,
+					Name = x.Name
+				})
+				.AsNoTracking()
+				.ToListAsync();
+
+			return result;
 		}
 
-		public Task<ProductViewModel> GetByIdAsync(int id)
+		public async Task<ProductViewModel> GetByIdAsync(int id)
 		{
-			throw new NotImplementedException();
+			var entity = await context.Products.FindAsync(id);
+
+			if(entity == null)
+			{
+				throw new ArgumentNullException("Invalid product Id");
+			}
+
+			return new ProductViewModel()
+			{
+				Id = id,
+				Name = entity.Name
+			};
 		}
 
-		public Task UpdateProductAsync(ProductViewModel model)
+		public async Task UpdateProductAsync(ProductViewModel model)
 		{
-			throw new NotImplementedException();
+			var entity = await context.Products.FindAsync(model.Id);
+
+			entity.Name = model.Name;
+
+			await context.SaveChangesAsync();
 		}
 	}
 }
