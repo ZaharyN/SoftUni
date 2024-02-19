@@ -30,7 +30,6 @@ namespace TaskBoardApp.Data.Models
 
         [ForeignKey(nameof(OwnerId))]
         public IdentityUser Owner { get; set; } = null!;
-
     }
 }
 
