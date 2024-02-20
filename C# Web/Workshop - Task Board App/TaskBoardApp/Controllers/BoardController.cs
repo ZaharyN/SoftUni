@@ -2,6 +2,7 @@
 using Microsoft.EntityFrameworkCore;
 using TaskBoardApp.Data;
 using TaskBoardApp.Models.Board;
+using TaskBoardApp.Models.Task;
 
 namespace TaskBoardApp.Controllers
 {
