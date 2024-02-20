@@ -1,8 +1,9 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using System.ComponentModel.DataAnnotations;
+using TaskBoardApp.Models.Task;
 using static TaskBoardApp.Data.Constants.DataConstants;
 
-namespace TaskBoardApp.Models
+namespace TaskBoardApp.Models.Board
 {
     public class BoardViewModel
     {

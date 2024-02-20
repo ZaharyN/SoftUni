@@ -1,49 +1,25 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\",
+  "WorkspaceRootPath": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\data\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:data\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\models\\board\\taskboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:models\\board\\taskboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\data\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:data\\models\\board.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\models\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:models\\errormessages.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\data\\constants\\dataconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:data\\constants\\dataconstants.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:areas\\identity\\pages\\account\\logout.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:areas\\identity\\pages\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:areas\\identity\\pages\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\c# web\\asp.net fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. workshop - task board app\\taskboardapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:areas\\identity\\pages\\account\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
@@ -59,27 +35,53 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "ApplicationDbContext.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\ApplicationDbContext.cs",
-              "RelativeDocumentMoniker": "Data\\ApplicationDbContext.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\ApplicationDbContext.cs",
-              "RelativeToolTip": "Data\\ApplicationDbContext.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAAAAAA",
+              "Title": "TaskController.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\TaskController.cs",
+              "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\TaskController.cs",
+              "RelativeToolTip": "Controllers\\TaskController.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAA5wC4AAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T10:19:53.788Z",
+              "WhenOpened": "2024-02-20T08:57:27.758Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "TaskBoardModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\Board\\TaskBoardModel.cs",
+              "RelativeDocumentMoniker": "Models\\Board\\TaskBoardModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\Board\\TaskBoardModel.cs",
+              "RelativeToolTip": "Models\\Board\\TaskBoardModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T08:53:54.013Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Board.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Board.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Board.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Board.cs",
-              "RelativeToolTip": "Data\\Models\\Board.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABJAAAA",
+              "Title": "ErrorMessages.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\ErrorMessages.cs",
+              "RelativeDocumentMoniker": "Models\\ErrorMessages.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\ErrorMessages.cs",
+              "RelativeToolTip": "Models\\ErrorMessages.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-15T09:29:56.926Z",
+              "WhenOpened": "2024-02-20T08:46:34.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "DataConstants.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Data\\Constants\\DataConstants.cs",
+              "RelativeDocumentMoniker": "Data\\Constants\\DataConstants.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Data\\Constants\\DataConstants.cs",
+              "RelativeToolTip": "Data\\Constants\\DataConstants.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-20T08:37:59.67Z",
               "EditorCaption": ""
             },
             {
@@ -87,117 +89,20 @@
               "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
             },
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Task.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Task.cs",
-              "RelativeDocumentMoniker": "Data\\Models\\Task.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Task.cs",
-              "RelativeToolTip": "Data\\Models\\Task.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAA1wBYAAAApAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T09:36:20.376Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "Logout.cshtml.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Logout.cshtml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T09:34:51.496Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "Register.cshtml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Register.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-14T08:47:00.04Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "Login.cshtml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\Login.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAABSAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-14T08:45:59.844Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-14T07:59:17.325Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Views\\Shared\\_Layout.cshtml",
-              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAA0AAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-02-14T07:37:47.807Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAoAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T07:36:26.298Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAArAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-14T07:34:14.602Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\C# Web\\ASP.NET Fundamentals - \u044F\u043D\u0443\u0430\u0440\u0438 2024\\11. Workshop - Task Board App\\TaskBoardApp\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABsAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-14T07:33:21.476Z",
-              "EditorCaption": ""
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "RelativeToolTip": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-14T07:59:17.325Z"
             }
           ]
         },

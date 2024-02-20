@@ -1,14 +1,14 @@
 ﻿using System.ComponentModel.DataAnnotations;
 using static TaskBoardApp.Data.Constants.DataConstants;
 
-namespace TaskBoardApp.Models
+namespace TaskBoardApp.Models.Task
 {
     public class TaskViewModel
     {
         public int Id { get; set; }
 
         [Required]
-        [StringLength(TaskTitleMaxLength,MinimumLength = TaskTitleMinLength)]
+        [StringLength(TaskTitleMaxLength, MinimumLength = TaskTitleMinLength)]
         public string Title { get; set; } = string.Empty;
 
         [Required]

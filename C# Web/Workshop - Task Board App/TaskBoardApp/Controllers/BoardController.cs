@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using TaskBoardApp.Data;
-using TaskBoardApp.Models;
+using TaskBoardApp.Models.Board;
 
 namespace TaskBoardApp.Controllers
 {
