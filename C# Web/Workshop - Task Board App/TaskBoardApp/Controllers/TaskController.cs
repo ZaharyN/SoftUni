@@ -100,6 +100,7 @@ namespace TaskBoardApp.Controllers
 			return View(task);
 		}
 
+		[HttpGet]
 		public async Task<IActionResult> Edit(int id)
 		{
 			var task = await context.Tasks
@@ -111,8 +112,101 @@ namespace TaskBoardApp.Controllers
 			}
 
 			string currentUser = GetUserId();
+			if(currentUser != task.OwnerId)
+			{
+				return Unauthorized();
+			}
 
-			
+			TaskFormModel taskModel = new TaskFormModel
+			{
+				Title = task.Title,
+				Description = task.Description,
+				BoardId = task.BoardId,
+				Boards = await GetBoards()
+			};
+
+			return View(taskModel);
 		}
+
+		[HttpPost]
+		public async Task<IActionResult>Edit(TaskFormModel taskForm, int id)
+		{
+			var task = await context.Tasks.FindAsync(id);
+
+            if (task == null)
+            {
+                return BadRequest();
+            }
+
+            string currentUser = GetUserId();
+            if (currentUser != task.OwnerId)
+            {
+                return Unauthorized();
+            }
+
+			if(!(await GetBoards()).Any(b => b.Id == taskForm.BoardId))
+			{
+				ModelState.AddModelError(nameof(taskForm.BoardId), "Board does not exist.");
+			}
+
+			if(!ModelState.IsValid)
+			{
+                taskForm.Boards = await GetBoards();
+
+				return View(taskForm);
+			}
+
+			task.Title = taskForm.Title;
+			task.Description = taskForm.Description;
+			task.BoardId = taskForm.BoardId;
+
+			await context.SaveChangesAsync();
+			return RedirectToAction("Index", "Board");
+        }
+
+		public async Task<IActionResult> Delete(int id)
+		{
+			var task = await context.Tasks.FindAsync(id);
+			if(task == null)
+			{
+				return BadRequest();
+			}
+
+            string currentUser = GetUserId();
+            if (currentUser != task.OwnerId)
+            {
+                return Unauthorized();
+            }
+
+			TaskViewModel model = new()
+			{
+				Id = task.Id,
+				Title = task.Title,
+				Description = task.Description
+			};
+
+			return View(model);
+        }
+
+		[HttpPost]
+		public async Task<IActionResult> Delete(TaskViewModel taskModel)
+		{
+			var task = await context.Tasks.FindAsync(taskModel.Id);
+			if(task == null)
+			{
+				return BadRequest();
+			}
+
+            string currentUser = GetUserId();
+            if (currentUser != task.OwnerId)
+            {
+                return Unauthorized();
+            }
+
+			context.Tasks.Remove(task);
+			context.SaveChangesAsync();
+
+			return RedirectToAction("Index", "Board");
+        }
 	}
 }

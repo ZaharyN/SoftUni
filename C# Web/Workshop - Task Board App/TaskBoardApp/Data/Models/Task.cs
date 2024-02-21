@@ -20,7 +20,7 @@ namespace TaskBoardApp.Data.Models
         [MaxLength(TaskDescriptionMaxLength)]
         public string Description { get; set; } = string.Empty;
         public DateTime? CreatedOn { get; set; }
-        public int? BoardId { get; set; }
+        public int BoardId { get; set; }
 
         [ForeignKey(nameof(BoardId))]
         public Board? Board { get; set; }

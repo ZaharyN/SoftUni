@@ -3,8 +3,40 @@
   "WorkspaceRootPath": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:controllers\\taskcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:models\\homeviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\models\\homeboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:models\\homeboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:views\\task\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\data\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:data\\models\\task.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3D433891-58F2-4ECD-B2F9-A4F7D0378D24}|TaskBoardApp.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\workshop - task board app\\taskboardapp\\models\\board\\taskboardmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -30,24 +62,132 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeBoardModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\HomeBoardModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeBoardModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\HomeBoardModel.cs",
+              "RelativeToolTip": "Models\\HomeBoardModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAUAAAArAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:59:12.235Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AQIAABkAAAAAAAAAAAAowDUAAAAjAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:56:44.708Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Views\\Task\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Task\\Edit.cshtml",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Views\\Task\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Task\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T07:54:11.336Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Task.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Task.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Task.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Data\\Models\\Task.cs",
+              "RelativeToolTip": "Data\\Models\\Task.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAkAAAAVAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T07:39:23.596Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "TaskController.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\TaskController.cs",
               "RelativeDocumentMoniker": "Controllers\\TaskController.cs",
               "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Controllers\\TaskController.cs",
               "RelativeToolTip": "Controllers\\TaskController.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAA5wC4AAAAAAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-02-20T08:57:27.758Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAABZAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-02-21T10:21:11.858Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "HomeViewModel.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\HomeViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\HomeViewModel.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\HomeViewModel.cs",
+              "RelativeToolTip": "Models\\HomeViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T09:59:53.147Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABsAAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-21T12:02:43.983Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAABsAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-02-21T07:17:38.663Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
               "Title": "TaskBoardModel.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\Board\\TaskBoardModel.cs",
               "RelativeDocumentMoniker": "Models\\Board\\TaskBoardModel.cs",
@@ -55,12 +195,11 @@
               "RelativeToolTip": "Models\\Board\\TaskBoardModel.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T08:53:54.013Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T08:53:54.013Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 10,
               "Title": "ErrorMessages.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Models\\ErrorMessages.cs",
               "RelativeDocumentMoniker": "Models\\ErrorMessages.cs",
@@ -68,12 +207,11 @@
               "RelativeToolTip": "Models\\ErrorMessages.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAABHAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T08:46:34.173Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-20T08:46:34.173Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 11,
               "Title": "DataConstants.cs",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Data\\Constants\\DataConstants.cs",
               "RelativeDocumentMoniker": "Data\\Constants\\DataConstants.cs",
@@ -81,20 +219,11 @@
               "RelativeToolTip": "Data\\Constants\\DataConstants.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAA4AAAAFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-20T08:37:59.67Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+              "WhenOpened": "2024-02-20T08:37:59.67Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 12,
               "Title": "_ViewImports.cshtml",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Workshop - Task Board App\\TaskBoardApp\\Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Areas\\Identity\\Pages\\Account\\_ViewImports.cshtml",
