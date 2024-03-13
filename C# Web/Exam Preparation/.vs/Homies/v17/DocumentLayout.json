@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\exam preparation\\homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\controllers\\eventcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|d:\\\u043C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\softuni\\c# web\\exam preparation\\homies\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6284C577-833D-4B62-994B-F748F2BE2305}|Homies\\Homies.csproj|solutionrelative:homies\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,7 +26,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -30,33 +34,44 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Register.cshtml.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "RelativeToolTip": "Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
-              "ViewState": "AQIAAE8AAAAAAAAAAAA4wGQAAAAaAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T12:57:34.441Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "Login.cshtml.cs",
-              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "RelativeToolTip": "Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
-              "ViewState": "AQIAABwAAAAAAAAAAAAcwCkAAAAwAAAA",
+              "Title": "EventController.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Controllers\\EventController.cs",
+              "RelativeDocumentMoniker": "Homies\\Controllers\\EventController.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Controllers\\EventController.cs",
+              "RelativeToolTip": "Homies\\Controllers\\EventController.cs",
+              "ViewState": "AQIAAIgAAAAAAAAAAAAAADMBAAA4AAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-02-26T12:48:22.372Z",
+              "WhenOpened": "2024-03-07T08:04:43.767Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "Homies\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:57:34.441Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "Homies\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAABwAAAAAAAAAAAAMwCkAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-02-26T12:48:22.372Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "appsettings.json",
               "DocumentMoniker": "D:\\\u041C\u043E\u0438\u0442\u0435 \u0444\u0430\u0439\u043B\u043E\u0432\u0435\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u0438\\SoftUni\\C# Web\\Exam Preparation\\Homies\\appsettings.json",
               "RelativeDocumentMoniker": "Homies\\appsettings.json",
@@ -64,8 +79,7 @@
               "RelativeToolTip": "Homies\\appsettings.json",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAAnAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-02-26T12:48:07.979Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-02-26T12:48:07.979Z"
             }
           ]
         },
