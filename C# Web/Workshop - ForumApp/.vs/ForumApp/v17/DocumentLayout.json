@@ -1,0 +1,187 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:views\\post\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:views\\post\\add.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:views\\post\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:core\\services\\postservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:controllers\\postcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\core\\contracts\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:core\\contracts\\ipostservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|d:\\softuni\\softuni\\c# web\\workshop - forumapp\\data\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01CE6166-4883-4757-BC96-AE9C9EA36B60}|ForumApp.csproj|solutionrelative:data\\models\\post.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Edit.cshtml",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Edit.cshtml",
+              "RelativeToolTip": "Views\\Post\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAARAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T10:07:04.722Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IPostService.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Core\\Contracts\\IPostService.cs",
+              "RelativeDocumentMoniker": "Core\\Contracts\\IPostService.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Core\\Contracts\\IPostService.cs",
+              "RelativeToolTip": "Core\\Contracts\\IPostService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAoAAAAuAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:07:04.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:07:04.75Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Add.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Add.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Add.cshtml",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Add.cshtml",
+              "RelativeToolTip": "Views\\Post\\Add.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAABAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T10:07:04.752Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "PostController.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Controllers\\PostController.cs",
+              "RelativeDocumentMoniker": "Controllers\\PostController.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Controllers\\PostController.cs",
+              "RelativeToolTip": "Controllers\\PostController.cs",
+              "ViewState": "AQIAAC0AAAAAAAAAAAAowEYAAAAzAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:07:04.754Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAApAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T10:07:04.756Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Post.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Data\\Models\\Post.cs",
+              "RelativeDocumentMoniker": "Data\\Models\\Post.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Data\\Models\\Post.cs",
+              "RelativeToolTip": "Data\\Models\\Post.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAawBEAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:07:04.758Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "_ViewImports.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\_ViewImports.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\_ViewImports.cshtml",
+              "RelativeToolTip": "Views\\_ViewImports.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T10:07:04.76Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Post\\Index.cshtml",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Views\\Post\\Index.cshtml",
+              "RelativeToolTip": "Views\\Post\\Index.cshtml",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAABoAAAA6AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-13T10:07:04.762Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "PostService.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Core\\Services\\PostService.cs",
+              "RelativeDocumentMoniker": "Core\\Services\\PostService.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Web\\Workshop - ForumApp\\Core\\Services\\PostService.cs",
+              "RelativeToolTip": "Core\\Services\\PostService.cs",
+              "ViewState": "AQIAABIAAAAAAAAAAAAYwCcAAAAkAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-13T10:07:04.764Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
