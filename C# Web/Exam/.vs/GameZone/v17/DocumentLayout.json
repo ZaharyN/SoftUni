@@ -1,0 +1,169 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\controllers\\gamecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\areas\\identity\\pages\\account\\register.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\areas\\identity\\pages\\account\\login.cshtml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\views\\game\\myzone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\myzone.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\details.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\views\\game\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\models\\gamemodels\\gameaddformview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\models\\gamemodels\\gameaddformview.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|d:\\softuni\\c# web\\asp.net fundamentals\\13. exam\\gamezone\\models\\gamemodels\\genreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7291DD2E-913C-45B2-9E86-5DE5C1B88957}|GameZone\\GameZone.csproj|solutionrelative:gamezone\\models\\gamemodels\\genreviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 9,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Register.cshtml.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "RelativeToolTip": "GameZone\\Areas\\Identity\\Pages\\Account\\Register.cshtml.cs",
+              "ViewState": "AQIAAEUAAAAAAAAAAAAowF0AAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:10:15.57Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Login.cshtml.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeDocumentMoniker": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "RelativeToolTip": "GameZone\\Areas\\Identity\\Pages\\Account\\Login.cshtml.cs",
+              "ViewState": "AQIAADsAAAAAAAAAAAAswEkAAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:09:31.974Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "GameZone\\Controllers\\HomeController.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "GameZone\\Controllers\\HomeController.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA8AAAAEAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T09:07:04.71Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Details.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\Details.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\Details.cshtml",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\Details.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\Details.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACUAAAAwAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T08:20:58.568Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\Edit.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\Edit.cshtml",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\Edit.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\Edit.cshtml",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAXAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T07:53:05.526Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MyZone.cshtml",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\MyZone.cshtml",
+              "RelativeDocumentMoniker": "GameZone\\Views\\Game\\MyZone.cshtml",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Views\\Game\\MyZone.cshtml",
+              "RelativeToolTip": "GameZone\\Views\\Game\\MyZone.cshtml",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAAACMAAACvAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-04-17T07:18:01.855Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "GenreViewModel.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Models\\GameModels\\GenreViewModel.cs",
+              "RelativeDocumentMoniker": "GameZone\\Models\\GameModels\\GenreViewModel.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Models\\GameModels\\GenreViewModel.cs",
+              "RelativeToolTip": "GameZone\\Models\\GameModels\\GenreViewModel.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:42:02.498Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "GameAddFormView.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Models\\GameModels\\GameAddFormView.cs",
+              "RelativeDocumentMoniker": "GameZone\\Models\\GameModels\\GameAddFormView.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Models\\GameModels\\GameAddFormView.cs",
+              "RelativeToolTip": "GameZone\\Models\\GameModels\\GameAddFormView.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAAwAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:35:16.466Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "GameController.cs",
+              "DocumentMoniker": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Controllers\\GameController.cs",
+              "RelativeDocumentMoniker": "GameZone\\Controllers\\GameController.cs",
+              "ToolTip": "D:\\SoftUni\\C# Web\\ASP.NET Fundamentals\\13. Exam\\GameZone\\Controllers\\GameController.cs",
+              "RelativeToolTip": "GameZone\\Controllers\\GameController.cs",
+              "ViewState": "AQIAAJ4AAAAAAAAAAAAwwGcBAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-04-17T06:33:06.778Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
