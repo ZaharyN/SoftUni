@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.9.34622.214
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations without Repetitions", "Permutations without Repetitions\Permutations without Repetitions.csproj", "{1A2C4173-C038-4324-9892-1A9891F14F4C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations with Repetition", "Permutations with Repetition\Permutations with Repetition.csproj", "{C0D18984-4D1D-4EA3-8AB0-E814E848A23B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Permutations with  Repetition Reduced Complexity", "Permutations with  Repetition Reduced Complexity\Permutations with  Repetition Reduced Complexity.csproj", "{30BA22ED-D884-49E7-8281-2B152FB76C17}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A2C4173-C038-4324-9892-1A9891F14F4C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1A2C4173-C038-4324-9892-1A9891F14F4C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1A2C4173-C038-4324-9892-1A9891F14F4C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1A2C4173-C038-4324-9892-1A9891F14F4C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0D18984-4D1D-4EA3-8AB0-E814E848A23B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0D18984-4D1D-4EA3-8AB0-E814E848A23B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0D18984-4D1D-4EA3-8AB0-E814E848A23B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0D18984-4D1D-4EA3-8AB0-E814E848A23B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{30BA22ED-D884-49E7-8281-2B152FB76C17}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{30BA22ED-D884-49E7-8281-2B152FB76C17}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{30BA22ED-D884-49E7-8281-2B152FB76C17}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{30BA22ED-D884-49E7-8281-2B152FB76C17}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {5C7DF6E9-B560-4784-AAAF-44028504F914}
+	EndGlobalSection
+EndGlobal
