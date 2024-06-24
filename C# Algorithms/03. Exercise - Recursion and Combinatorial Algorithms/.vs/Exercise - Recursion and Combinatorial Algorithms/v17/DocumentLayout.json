@@ -1,13 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\",
+  "WorkspaceRootPath": "D:\\SoftUni\\SoftUni\\C# Algorithms\\03. Exercise - Recursion and Combinatorial Algorithms\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{22084274-A47B-43AA-9977-F028357A8792}|02\\02..csproj|d:\\softuni\\c# algorithms\\03. exercise recursion and combinatorial algorithms\\exercise - recursion and combinatorial algorithms\\02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{22084274-A47B-43AA-9977-F028357A8792}|02\\02..csproj|solutionrelative:02\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\02\\Program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{6E9F389B-F103-42D0-BCA1-70D384732FD1}|01. Reverse array\\01. Reverse array.csproj|d:\\softuni\\c# algorithms\\03. exercise recursion and combinatorial algorithms\\exercise - recursion and combinatorial algorithms\\01. reverse array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{6E9F389B-F103-42D0-BCA1-70D384732FD1}|01. Reverse array\\01. Reverse array.csproj|d:\\softuni\\softuni\\c# algorithms\\03. exercise - recursion and combinatorial algorithms\\01. reverse array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{6E9F389B-F103-42D0-BCA1-70D384732FD1}|01. Reverse array\\01. Reverse array.csproj|solutionrelative:01. reverse array\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -25,21 +24,19 @@
               "DocumentIndex": 0,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\02\\Program.cs",
-              "RelativeDocumentMoniker": "02\\Program.cs",
+              "RelativeDocumentMoniker": "..\\..\\..\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\02\\Program.cs",
               "ToolTip": "D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\02\\Program.cs",
-              "RelativeToolTip": "02\\Program.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAOAAAA",
+              "RelativeToolTip": "..\\..\\..\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\02\\Program.cs",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-06-17T20:04:01.691Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-06-17T20:04:01.691Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\01. Reverse array\\Program.cs",
+              "DocumentMoniker": "D:\\SoftUni\\SoftUni\\C# Algorithms\\03. Exercise - Recursion and Combinatorial Algorithms\\01. Reverse array\\Program.cs",
               "RelativeDocumentMoniker": "01. Reverse array\\Program.cs",
-              "ToolTip": "D:\\SoftUni\\C# Algorithms\\03. Exercise Recursion and Combinatorial Algorithms\\Exercise - Recursion and Combinatorial Algorithms\\01. Reverse array\\Program.cs",
+              "ToolTip": "D:\\SoftUni\\SoftUni\\C# Algorithms\\03. Exercise - Recursion and Combinatorial Algorithms\\01. Reverse array\\Program.cs",
               "RelativeToolTip": "01. Reverse array\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABkAAAAEAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
