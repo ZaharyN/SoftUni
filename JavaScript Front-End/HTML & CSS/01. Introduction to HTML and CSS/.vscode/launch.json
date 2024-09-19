@@ -1,0 +1,14 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "chrome",
+            "request": "launch",
+            "name": "Open 02. Ordered_and_unordered.html",
+            "file": "d:\\SoftUni\\JS Front-End\\HTML & CSS\\03. Introduction to HTML & CSS\\02. Ordered & Unordered Lists\\02. Ordered_and_unordered.html"
+        }
+    ]
+}
