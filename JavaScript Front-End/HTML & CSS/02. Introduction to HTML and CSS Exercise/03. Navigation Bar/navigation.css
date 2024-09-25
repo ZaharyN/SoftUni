@@ -1,0 +1,11 @@
+nav{
+    background: black;
+}
+
+a{
+    color: white;    
+}
+
+a[href="#about"]{
+    color: aqua;
+}
