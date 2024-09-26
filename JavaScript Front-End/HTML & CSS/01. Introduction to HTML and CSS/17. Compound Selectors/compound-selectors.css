@@ -1,0 +1,29 @@
+p.highlighted{
+    color:#2658b7;
+    font-size: x-large;
+}
+
+div#special{
+    background-color: #FFC107;
+    padding-left: 20px;
+    box-shadow: 2px 2px 5px black;
+}
+
+.important-item.green{
+    color: #17A2B8;
+}
+
+.important-item.red{
+    color:red;
+    font-weight: bold;
+    font-style: italic;
+}
+
+.fancy[href^="https"]{
+    color: #FFC107;
+    border-bottom: 1px solid #FFC107;
+}
+
+.fancy.multiple-classes{
+    color: blue;
+}
