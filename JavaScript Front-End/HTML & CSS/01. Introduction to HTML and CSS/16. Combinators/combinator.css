@@ -1,0 +1,31 @@
+div p{
+    color: aquamarine;
+}
+
+ul > li{
+    list-style-type: circle;
+}
+
+p + p{
+    background-color: blueviolet;
+}
+
+p ~ span{
+    font-weight: 900;
+}
+
+span{
+    color: red;
+}
+
+div{
+    font-family: Arial, sans-serif;
+    padding: 20px;
+    border: 1px solid;
+    margin: 20px;
+    font-weight: bold;
+}
+
+ul{
+    padding-left: 20px;
+}

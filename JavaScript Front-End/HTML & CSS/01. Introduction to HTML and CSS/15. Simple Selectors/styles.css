@@ -1,0 +1,39 @@
+h1{
+    color: aqua;
+    font: 500;
+}
+
+p{
+    color:blue;
+    font: 300;
+}
+
+div{
+    background-color:darkslategrey;
+}
+
+ul{
+    list-style-type: georgian;
+}
+
+li{
+    color:darksalmon;
+}
+
+.highlight p{
+    color: brown;
+}
+
+.highlight li{
+    color: chartreuse;
+}
+
+#main-title{
+    font: 800;
+    background-color: aquamarine;
+}
+
+#special-paragraph{
+    font-style: italic;
+}
+
