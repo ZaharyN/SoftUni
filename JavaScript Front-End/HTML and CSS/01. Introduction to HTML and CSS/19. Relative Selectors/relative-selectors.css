@@ -1,0 +1,39 @@
+body{
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+section p{
+    color: #294A4A;
+}
+
+section article:last-child{
+    background-color: #F08080;
+}
+
+ul{
+    font-weight: bold;
+    list-style-type: none;
+}
+
+ul li.special{
+    color:red;
+}
+
+ul > li > ul{
+    padding-left: 15px;
+}
+
+ul > li > ul a{
+    text-decoration: none;
+    color:navy;
+}
+
+li.special + li a{
+    color:green;
+}
+
+h2 ~ p{
+    color:#436AE1;
+}
