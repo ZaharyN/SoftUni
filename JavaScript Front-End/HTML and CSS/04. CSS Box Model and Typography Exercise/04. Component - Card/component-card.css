@@ -1,0 +1,54 @@
+body {
+    background-color: #EBEBEB;
+}
+
+.card {
+    width: 350px;
+    margin: 30px auto;
+    border-radius: 6px;
+    box-shadow: rgba(17, 12, 46, 0.15) 0px 30px 30px 0px;
+    overflow: hidden;
+}
+
+img {
+    width: 100%;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 16px;
+}
+
+.text{
+    padding: 10px 20px 20px 30px;
+    font-family: sans-serif;
+}
+
+.header h4{
+    margin: 0px;
+    font-size: 18px;
+}
+
+.source, .link {
+    margin: 0px;
+}
+
+footer{
+    margin-top: 30px;
+}
+
+p.link{
+    font-style: italic;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    white-space: nowrap;
+}
+
+p.source{
+    font-weight: bold;
+}
+
+p.description{
+    margin-top: 10px;
+}
