@@ -1,0 +1,35 @@
+html{
+    font-family: Lato, sans-serif;
+}
+
+body, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+}
+
+.article-container{
+    margin: 30px auto;
+    max-width: 900px;
+    border: 1px solid #C5C5C5;
+    padding: 30px 30px;
+    border-radius: 5px;
+    color: #2D2D2D;
+}
+
+header p{
+    font-weight: bold;
+    font-size: 1.1em;
+    padding-right: 50px;
+}
+
+h3{
+    margin-top: 20px;
+}
+
+.published{
+    font-style: italic;
+}
+
+time,
+.author {
+    font-weight: bold;
+}
