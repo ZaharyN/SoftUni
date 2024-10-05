@@ -1,0 +1,62 @@
+body {
+    font-family: "Lato", sans-serif;
+}
+
+div {
+    padding-left: 15px;
+}
+
+ul {
+    padding: 0px;
+}
+
+ul li {
+    display: inline-block;
+}
+
+body div:first-child {
+    padding-top: 10px;
+}
+
+button {
+    font-family: "Lato", sans-serif;
+    cursor: pointer;
+}
+
+a, button {
+    text-decoration: none;
+    color: black;
+    margin-right: 3px;
+    padding: 15px 20px;
+    font-size: 1em;
+    border: 1.5px solid #E5E5E5;
+    border-radius: 3px;
+}
+
+.button-first,
+.first {
+    background-color: #E5E5E5;
+}
+
+.button-second,
+.second {
+    background-color: #FF9B00;
+}
+
+.button-third,
+.third {
+    background-color: #F9F9CC;
+}
+
+.fourth {
+    background-color: white;
+}
+
+.button-edit,
+.edit {
+    background-color: #E5E5E5;
+}
+
+ul.links {
+    margin-top: 30px;
+}

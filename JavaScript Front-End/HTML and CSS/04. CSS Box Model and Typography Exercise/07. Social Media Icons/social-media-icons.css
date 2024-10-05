@@ -1,0 +1,25 @@
+body{
+    font-family: "Lato", sans-serif;
+}
+
+.button-container{
+
+    padding: 10px 20px;
+}
+
+i{
+    padding: 15px;
+    background-color: #EBEBEB;
+    border-radius: 30px;
+    text-decoration: none;
+    color: black;
+    margin: 2px;
+}
+
+ul{
+    padding-left: 0px;
+}
+
+ul li {
+    display: inline;
+}
