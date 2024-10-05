@@ -1,0 +1,30 @@
+body {
+    margin: 0;
+}
+
+.container {
+    position: relative;
+    text-align: center;
+}
+
+img {
+    width: 100%;
+    max-height: 620px;
+}
+
+.text-image {
+    position: absolute;
+    font-family: sans-serif;
+    top: 50%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+}
+
+.text-image h2 {
+    margin-bottom: 10px;
+}
+
+.text-image p {
+    margin-top: 10px;
+}
