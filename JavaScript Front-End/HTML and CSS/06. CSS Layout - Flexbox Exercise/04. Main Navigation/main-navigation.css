@@ -1,0 +1,37 @@
+body {
+    background-color: #FFFFFF;
+}
+
+a {
+    text-decoration: none;
+    color: #FF8E06;
+}
+
+ul {
+    display: flex;
+    list-style-type: none;
+    padding: 0px 10px;
+    margin: 8px 0px;
+    gap: 10px;
+}
+
+.container {
+    background-color: #EEEEEE;
+    width: 95%;
+    margin: 20px auto;
+    display: flex;
+    border-radius: 5px;
+    border: 1.5px solid lightgray;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+li {
+    font-family: "Lato", sans-serif;
+    font-weight: bold;
+    padding: 8px 15px;
+    background-color: #FFFFFF;
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+}
+
+ 
