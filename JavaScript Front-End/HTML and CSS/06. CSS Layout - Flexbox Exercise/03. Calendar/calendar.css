@@ -1,0 +1,47 @@
+body {
+    background-color: #eee;
+}
+
+.container {
+    width: 90%;
+    margin: 60px auto;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    padding: 2px;
+}
+
+.calendar {
+    border: 1.5px solid lightgray;
+    border-radius: 5px;
+    display: flex;
+    font-family: "Lato", sans-serif;
+    font-weight: 500;
+}
+
+.week {
+    display: flex;
+    flex: 0 0 75%;
+    flex-wrap: wrap;
+}
+
+.week div,
+.notes div {
+    flex: 1 1 auto;
+    text-align: center;
+    padding: 30px;
+    border: 1.5px solid lightgray;
+}
+
+.week div:nth-of-type(1),
+.week div:nth-of-type(7) {
+    flex: 1 1 100%;
+}
+
+.notes {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    flex: 1 1 100%;
+}
+

@@ -1,51 +1,51 @@
 body {
     background-color: #eee;
+    font-family: "Lato", sans-serif;
 }
 
-.container {
-    display: flex;
-    margin: 40px 60px;
+section {
     width: 80%;
+    margin: 40px auto;
     background-color: white;
-    padding: 20px;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    border-radius: 3px;
-    font-family: sans-serif;
-    flex-wrap: wrap;
-    gap: 12px;
-}
-
-.flex-item {
     padding: 20px;
-    border: 1.5px solid #ABABAB;
     border-radius: 3px;
-    font-size: 0.8em;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
 }
 
-header.flex-item,
-footer.flex-item {
-    flex-basis: 100%;
+div {
+    padding: 20px;
+    border: 1px solid darkgray;
+    border-radius: 3px;
 }
 
-.container main{
+.flex-item.header,
+.flex-item.site-footer {
+    flex: 1 1 100%;
+}
+
+.flex-item.main {
     flex-grow: 7;
 }
 
-.container aside {
+.flex-item.sidebar {
     flex-grow: 3;
 }
 
-.container.second > header {
+.container-second .header {
     order: 1;
 }
 
-.container.second > aside {
-    order: 2
-}
-.container.second > main {
-    order: 3
+.container-second .sidebar {
+    order: 2;
 }
 
-.container.second > footer {
-    order: 4
+.container-second .main {
+    order: 3;
+}
+
+.container-second .site-footer {
+    order: 4;
 }
