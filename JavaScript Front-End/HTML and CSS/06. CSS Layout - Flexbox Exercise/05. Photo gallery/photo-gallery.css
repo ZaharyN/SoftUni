@@ -1,0 +1,45 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+}
+
+.gallery-container {
+    width: 92%;
+    display: flex;
+    flex-wrap: wrap;
+    margin: 40px auto;
+    gap: 30px; 
+}
+
+.gallery-item {
+    flex: 1 0 calc(100% / 3 - 30px);
+    border: 8px solid #333333;
+    border-radius: 3px;
+    padding: 15px;
+    background-color: white;
+}
+
+figure {
+    height: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 3px;
+}
+
+figcaption {
+    font-family: "Lato", sans-serif;
+    color: darkgray;
+    font-style: italic;
+    font-size: 0.8em;
+}
+
