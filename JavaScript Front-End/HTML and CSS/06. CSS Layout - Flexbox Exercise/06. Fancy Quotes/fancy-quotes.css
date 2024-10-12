@@ -1,0 +1,90 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #eee;
+    font-family: "Lato", sans-serif;
+}
+
+.container {
+    display: flex;
+    width: 85%;
+    margin: 60px auto;
+    gap: 30px;
+}
+
+.left-container {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    flex: 1 1 calc((100% / 3) * 2 - 30px);
+}
+
+.right-container {
+    display: flex;
+    flex: 1 1 calc(100% / 3);
+}
+
+article {
+    background-color: white;
+    display: flex;
+    border-radius: 5px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    padding: 20px;
+    gap: 20px;
+}
+
+.text {
+    display: flex;
+    flex-direction: column;
+    flex: 0 0 70%;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.circle-container {
+    display: flex;
+    flex: 1 1 30%;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 5px;
+    height: 160px;
+}
+
+.circle {
+    display: flex;
+    flex-grow: 1;
+    background-color: #009700;
+    border-radius: 50%;
+} 
+
+.text i {
+    font-size: 50px;
+}
+
+.text > p {
+    color: darkgray;
+    font-size: 0.9em;
+    font-weight: 500;
+} 
+
+footer p {
+    font-weight: 600;
+}
+
+article.right {
+    flex-direction: column;
+}
+
+.right .text {
+    flex: 0 1 50%
+}
+
+.right .circle-container {
+    max-height: 90px;
+    max-width: 90px;
+    flex: 1 1 50%;
+}
