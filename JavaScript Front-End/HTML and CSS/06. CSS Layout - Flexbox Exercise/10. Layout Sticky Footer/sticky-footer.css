@@ -1,0 +1,27 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #EEEEEE;
+    font: 14px "Lato", sans-serif;
+    border: 2px solid green;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    min-height: 100vh;
+}
+
+body > * {
+    padding: 20px;
+    border: 2px solid blue;
+}
+
+body > main {
+    flex-grow: 1;
+}
