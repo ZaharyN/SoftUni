@@ -1,0 +1,111 @@
+@import url(https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap);
+
+*,
+*::before,
+*::after {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font: 14px/1.5 "Kode Mono";
+}
+
+body {
+    background-color: #C1BDBA;
+}
+
+form {
+    max-width: 700px;
+    margin: 60px auto;
+    background-color: #24333C;
+    padding: 50px;
+    font-size: 20px;
+    border-radius: 5px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+nav li {
+    list-style: none;
+    padding: 20px 50px;
+    flex: 1 1 auto;
+    text-align: center;
+    background-color: #435359;
+}
+
+li.sign-up {
+    background-color: #19AC84;
+}
+
+li a {
+    text-decoration: none;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+    padding: 30px;
+    color: white;
+    font-weight: normal;
+    margin: 10px 0;
+}
+
+.name {
+    display: flex;
+    gap: 30px;
+}
+
+.name .field {
+    flex: 1 1 auto;
+    margin-bottom: 0;
+    margin-top: 0;
+}
+
+.field {
+    position: relative;
+    margin: 40px 0;
+}
+
+.field input{
+    width: 100%;
+    background-color: transparent;
+    border: 1px solid #A0B3B0;
+    padding: 15px;
+    outline: none;
+}
+
+.field label {
+    color: #92999E;
+    display: block;
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 12px;
+}
+
+label::after {
+    content:"*";
+    color: #19AC84;
+    padding-left: 2px;
+}
+
+input[type="submit"] {
+    width: 100%;
+    background-color: #19AC84;
+    color: white;
+    padding: 20px;
+    font-size: 40px;
+    font-family: "Kode Mono";
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+li.log-in:hover {
+    background-color: #179A77;
+}
