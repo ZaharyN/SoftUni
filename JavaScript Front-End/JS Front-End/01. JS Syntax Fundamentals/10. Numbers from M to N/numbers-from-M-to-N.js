@@ -5,4 +5,5 @@ function solve(m, n){
 }
 
 solve(6, 2);
+console.log('-------------------------------')
 solve(4, 1);
