@@ -1,5 +1,7 @@
 document.addEventListener('DOMContentLoaded', solve);
 
 function solve() {
-   //TODO
+   const products = document.querySelectorAll('#product');
+   console.log(products);
+   
 }
