@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fetch API</title>
+</head>
+
+<body>
+    <h1>Fetch API</h1>
+    <ul id="list"></ul>
+    <button id="load">Load Data</button>
+    <button id="post">Post Data</button>
+
+    <script>
+        document.addEventListener('DOMContentLoaded', (e) => {
+
+            const baseUrl = 'https://api.restful-api.dev/objects';
+            const listEl = document.querySelector('#list');
+
+            document.querySelector('#load').addEventListener('click', (e) => {
+                //     const responsePromise = fetch(baseUrl);
+
+                //     responsePromise
+                //         .then(response =>
+                //             response.json()
+                //                 .then(data =>
+                //                     console.log(data))
+                //         )
+                //         .catch(error => {
+                //             console.log(error);
+                //         })
+                fetch(baseUrl)
+                    .then(response => response.json())
+                    .then(result => {
+                        result.forEach(element => {
+                            // const liEl = document.createElement('li');
+                            // liEl.textContent = element.name;
+                            // listEl.appendChild(liEl);
+                            listEl.appendChild(
+                                Object.assign(document.createElement('li'), { textContent: element.name })
+                            );
+                        })
+                    })
+                    .catch(error => console.log(error));
+            });
+
+            document.querySelector('#post').addEventListener('click', (e) => {
+
+                const postUrl = 'https://api.restful-api.dev/objects';
+                const newObject = {
+                    "name": "Apple MacBook Pro 16",
+                    "data": {
+                        "year": 2019,
+                        "price": 1849.99,
+                        "CPU model": "Intel Core i9",
+                        "Hard disk size": "1 TB"
+                    }
+                };
+
+                fetch(postUrl, {
+                    method: 'POST',
+                    headers: { 'content-type': 'application/json' },
+                    body: JSON.stringify(newObject)
+                })
+                    .then(response => response.json()
+                        .then(result => console.log(result)))
+                    .catch(err => console.log(err));
+            });
+        });
+
+    </script>
+</body>
+
+</html>
+
+<!-- {
+    "name": "Apple MacBook Pro 16",
+    "data": {
+       "year": 2019,
+       "price": 1849.99,
+       "CPU model": "Intel Core i9",
+       "Hard disk size": "1 TB"
+    }
+} -->
