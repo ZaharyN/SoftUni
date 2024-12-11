@@ -1,7 +1,7 @@
 const { chromium } = require('playwright-chromium');
 const { expect } = require('chai');
 
-const host = 'http://localhost:3000'; // Application host (NOT service host - that can be anything)
+const host = 'http://127.0.0.1:5500/JavaScript%20Front-End/JS%20Front-End/13.%20Asynchronous%20Programming/03.Forecaster/index.html'; // Application host (NOT service host - that can be anything)
 
 const DEBUG = false;
 const slowMo = 500;
