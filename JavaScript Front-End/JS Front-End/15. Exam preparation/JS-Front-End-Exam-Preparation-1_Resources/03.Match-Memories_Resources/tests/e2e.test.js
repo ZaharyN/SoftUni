@@ -1,8 +1,7 @@
 import { chromium } from 'playwright-chromium';
 import { expect } from 'chai';
 
-// const host = 'http://localhost:3000'; // Application host (NOT service host - that can be anything)
-const host = 'http://127.0.0.1:5500/03.Match-Memories_Resources/index.html'; // Application host (NOT service host - that can be anything)
+const host = 'http://127.0.0.1:5500/JavaScript%20Front-End/JS%20Front-End/15.%20Exam%20preparation/JS-Front-End-Exam-Preparation-1_Resources/03.Match-Memories_Resources/index.html'; // Application host (NOT service host - that can be anything)
 
 const DEBUG = false;
 const slowMo = 500;
